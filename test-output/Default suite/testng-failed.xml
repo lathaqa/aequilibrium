@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.tests.SauceDemoTest">
+        <methods>
+          <include name="negativeTest_NoInput"/>
+          <include name="negativeTest_Username_input_Only_Numericals"/>
+          <include name="negativeTest_Username_input_OnlyCharacters"/>
+          <include name="negativeTest_onlyUsername_input"/>
+          <include name="initialization"/>
+          <include name="negativeTest_Username_input_Numericals_and_SpecialChars"/>
+          <include name="quit"/>
+          <include name="negativeTest_Username_input_OnlySpecial_Characters"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tests.SauceDemoTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
